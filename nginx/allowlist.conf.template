@@ -1,0 +1,8 @@
+# IP allowlist for node-exporter (9100) and cadvisor (8080) proxies.
+# One "allow" line per trusted IP or CIDR. Keep "deny all;" last so that
+# anything not explicitly listed is rejected by default.
+#
+# allow 10.10.0.5;
+# allow 10.10.0.0/24;
+
+deny all;
